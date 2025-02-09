@@ -1,0 +1,3 @@
+This repository demonstrates a subtle bug that can occur in C# when using implicit type conversion operators. The bug involves a class with implicit conversions to and from an integer type. While seemingly innocuous, this can lead to unexpected behavior if not handled carefully.
+
+The `bug.cs` file shows the problematic code that can produce ambiguous conversions or other issues depending on the surrounding code.  The `bugSolution.cs` file shows a potential solution. Carefully reviewing operator overloading is crucial to avoiding this kind of error in your own projects. 
